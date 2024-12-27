@@ -3,7 +3,7 @@
 internal static class BuildInfo
 {
     public const string NAME = "SprintUnlocker";
-    public const string DESCRIPTION = "Unlocks sprint mode with the Shift key";
+    public const string DESCRIPTION = "Unlocks sprint mode";
     public const string AUTHOR = "MrS4g0";
     public const string COMPANY = null;
     public const string VERSION = "1.0.0";
