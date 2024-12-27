@@ -11,7 +11,7 @@
   - [MelonLoader](https://github.com/LavaGang/MelonLoader/releases)
     - Просто используйте **установщик** последней версии
   - [BepInEx](https://github.com/BepInEx/BepInEx/releases)
-    - Нам нужен **BepInEx-Unity.IL2CPP-win-x64-x.x.x**
+    - Нам нужен **BepInEx-Unity.IL2CPP-win-x64-6.x.x** (6-ая версия)
     - Распакуйте содержимое архива в папку с игрой
 
 - Скачать [последнюю версию мода](https://github.com/MrSago/MiSide-Sprint-Unlocker/releases) **под нужный загрузчик:**
@@ -32,9 +32,9 @@ Unlocks sprint mode with the Shift key.
 - Install one of the supported mod loaders
 
   - [MelonLoader](https://github.com/LavaGang/MelonLoader/releases)
-    - Just use the latest **installer**
+    - Just use the latest version **installer**
   - [BepInEx](https://github.com/BepInEx/BepInEx/releases)
-    - We need **BepInEx-Unity.IL2CPP-win-x64-x.x.x**
+    - We need **BepInEx-Unity.IL2CPP-win-x64-6.x.x** (6th version)
     - Unzip the contents of the archive into the game folder
 
 - Download [the latest version of the mod](https://github.com/MrSago/MiSide-Sprint-Unlocker/releases) **for the required loader:**
