@@ -24,11 +24,17 @@ public static class SprintUnlocker
             else
             {
                 ModCore.Loader.Update -= OnUpdate;
+                if (IsPlayerMoveValid())
+                {
+                    SetPlayerRunState(false);
+                }
             }
 
             ModCore.Log(value ? "Enabled" : "Disabled");
         }
     }
+
+    private static PlayerMove? _playerMove;
 
     public static void Init()
     {
@@ -44,11 +50,13 @@ public static class SprintUnlocker
     {
         try
         {
-            PlayerMove? playerMove = UnityEngine.Object.FindObjectOfType<PlayerMove>();
-            if (playerMove is not null)
+            PlayerMove? playerMove = GetPlayerMove();
+            if (playerMove == null)
             {
-                playerMove.canRun = value;
+                return;
             }
+
+            playerMove.canRun = value;
         }
         catch (Exception e)
         {
@@ -62,5 +70,19 @@ public static class SprintUnlocker
         {
             SetPlayerRunState(true);
         }
+    }
+
+    private static PlayerMove? GetPlayerMove()
+    {
+        if (!IsPlayerMoveValid())
+        {
+            _playerMove = GameObject.Find("Player")?.GetComponent<PlayerMove>();
+        }
+        return _playerMove;
+    }
+
+    private static bool IsPlayerMoveValid()
+    {
+        return _playerMove != null && _playerMove.gameObject != null;
     }
 }
