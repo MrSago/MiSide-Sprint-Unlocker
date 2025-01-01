@@ -43,7 +43,7 @@ public static class SprintUnlocker
             ModCore.Loader.Update += OnUpdate;
         }
 
-        ModCore.Log("Mod Initialized");
+        ModCore.Log("Initialized");
     }
 
     public static void SetPlayerRunState(bool value)
