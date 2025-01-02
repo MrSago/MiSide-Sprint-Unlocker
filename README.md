@@ -1,27 +1,6 @@
 # MiSide-Sprint-Unlocker
 
-## Описание мода
-
-Разблокирует режим спринта на клавишу Shift.
-
-## Установка мода
-
-- Установить один из поддерживаемых загрузчиков **(я рекомендую поставить BepInEx)**:
-
-  - [BepInEx](https://github.com/BepInEx/BepInEx/releases)
-    - Нам нужен **BepInEx-Unity.IL2CPP-win-x64-6.x.x** (6-ая версия)
-    - Распакуйте содержимое архива в папку с игрой
-  - [MelonLoader](https://github.com/LavaGang/MelonLoader/releases)
-    - Просто используйте **установщик** последней версии
-
-- Скачать [последнюю версию мода](https://github.com/MrSago/MiSide-Sprint-Unlocker/releases) **под нужный загрузчик:**
-
-  - SprintUnlocker.BepInEx.zip - для BepInEx
-  - SprintUnlocker.MelonLoader.zip - для MelonLoader
-
-- Извлечь файлы из архива в папку с игрой
-
-- Веселитесь
+## Already included in [KappiMod](https://github.com/MrSago/MiSide-KappiMod)
 
 ## Mod description
 
@@ -45,3 +24,26 @@ Unlocks sprint mode with the Shift key.
 - Extract files from the archive into the game folder
 
 - Have fun
+
+## Описание мода
+
+Разблокирует режим спринта на клавишу Shift.
+
+## Установка мода
+
+- Установить один из поддерживаемых загрузчиков **(я рекомендую поставить BepInEx)**:
+
+  - [BepInEx](https://github.com/BepInEx/BepInEx/releases)
+    - Нам нужен **BepInEx-Unity.IL2CPP-win-x64-6.x.x** (6-ая версия)
+    - Распакуйте содержимое архива в папку с игрой
+  - [MelonLoader](https://github.com/LavaGang/MelonLoader/releases)
+    - Просто используйте **установщик** последней версии
+
+- Скачать [последнюю версию мода](https://github.com/MrSago/MiSide-Sprint-Unlocker/releases) **под нужный загрузчик:**
+
+  - SprintUnlocker.BepInEx.zip - для BepInEx
+  - SprintUnlocker.MelonLoader.zip - для MelonLoader
+
+- Извлечь файлы из архива в папку с игрой
+
+- Веселитесь
